@@ -1,0 +1,12 @@
+NOTE TO STUDENTS: Before you do anything else, please
+provide your team information in below.
+
+ Note: This comment is parsed. Please do not change the
+       Format!
+
+ === User information ===
+ Group: HotDogBoys
+ User 1: bjartur14 
+ SSN: 101295 2499
+ User 2: eythorst14
+ SSN: 0109943229
