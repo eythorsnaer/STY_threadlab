@@ -9,7 +9,6 @@ int num_pedestrians;
 void *vehicles(void *arg);
 void *pedestrians(void *arg);
 
-//sem_t cross_access;
 sem_t horizontal_street;
 sem_t vertical_street;
 sem_t both_streets;
@@ -19,7 +18,6 @@ pthread_t *vehicle_thread;
 
 void init()
 {
-  //sem_init(&cross_access, 0, 5);
     sem_init(&horizontal_street, 0, 1);
     sem_init(&vertical_street, 0, 1);
     sem_init(&both_streets, 0, 1);

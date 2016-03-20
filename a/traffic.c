@@ -10,10 +10,10 @@ void *vehicles(void *arg);
 void *pedestrians(void *arg);
 
 sem_t thread_mutex;
-sem_t pMutex;
-sem_t vMutex;
-sem_t plock;
-sem_t vlock;
+sem_t vhLock;
+sem_t vvLock;
+sem_t phLock;
+sem_t pvLock;
 
 pthread_t *pedestrian_thread;
 pthread_t *vehicle_thread;
